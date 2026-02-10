@@ -11,7 +11,7 @@ function cancel(){
 
 const texts = [
     "DEVELOPER",
-    "YOUTUBER",
+    "GAMER",
     "DESIGNER"
 ]
 
@@ -44,5 +44,6 @@ function eraseText() {
         setTimeout(typeWriter,500)
     }
 }
+
 
 window.onload = typeWriter;
