@@ -45,4 +45,23 @@ function eraseText() {
     }
 }
 
+// Function to Open Modal
+function openModal() {
+    document.getElementById("contactModal").style.display = "block";
+}
+
+// Function to Close Modal
+function closeModal() {
+    document.getElementById("contactModal").style.display = "none";
+}
+
+// Close modal if user clicks outside of it
+window.onclick = function(event) {
+    const modal = document.getElementById("contactModal");
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
 window.onload = typeWriter;
+
